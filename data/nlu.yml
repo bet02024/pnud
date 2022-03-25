@@ -1,0 +1,188 @@
+version: "2.0"
+
+nlu:
+- intent: saludo
+  examples: |
+    - hey
+    - hola
+    - qué tal?
+    - buenos días
+    - buenas tardes
+    - Empezar
+    - qué pasa?
+    - vamos
+    - hey amigo
+    - buenosdías
+    - buenasnoches
+    - buenas tardes
+
+- intent: case_actuar_violencia
+  examples: |
+    - case_actuar_violencia
+
+- intent: aprender_pareja_finalizar
+  examples: |
+    - aprender_pareja_finalizar
+
+- intent: aprender_domestico_finalizar
+  examples: |
+    - aprender_domestico_finalizar
+
+- intent: aprender_laboral_finalizar
+  examples: |
+    - aprender_laboral_finalizar
+
+- intent: aprender_escolar_finalizar
+  examples: |
+    - aprender_escolar_finalizar
+
+- intent: aprender_politica_finalizar
+  examples: |
+    - aprender_politica_finalizar
+
+- intent: aprender_espacio_pub_finalizar
+  examples: |
+    - aprender_espacio_pub_finalizar
+
+- intent: agente_social_menu
+  examples: |
+    - agente_social_menu
+
+- intent: finalizar_aprender_info
+  examples: |
+    - finalizar_aprender_info
+
+- intent: finalizar_aprender_si
+  examples: |
+    - finalizar_aprender_si
+
+- intent: finalizar_aprender_no
+  examples: |
+    - finalizar_aprender_no
+
+
+- intent: aprender
+  examples: |
+    - deseo aprender
+    - estudiar definiciones
+    - entender violencia
+    - profundizar en definición de violencia
+
+- intent: caso_violencia
+  examples: |
+    - soy testigo de violencia
+    - he presenciado agresividad
+    - he visto caso de violencia
+
+- intent: erradicar_violencia
+  examples: |
+    - qué puedo hacer para erradicar la violencia?
+    - métodos para eliminar
+- intent: contactos
+  examples: |
+    - Deseo saber contactos útiles
+    - Llamar a números de emergencia
+    - Conocer guía de contactos útiles
+    - Proporcinar lista de contactos
+
+- intent: pareja
+  examples: |
+    - violencia de tipo pareja
+    - violencia en noviazgo
+    - violencia en matrimonio
+
+- intent: domestico
+  examples: |
+    - violencia en casa
+    - violencia familiar
+    - violencia en hogar
+
+- intent: laboral
+  examples: |
+    - violencia en oficina
+    - violencia en trabajo
+    - violencia al laborar
+
+- intent: escolar
+  examples: |
+    - violencia en escuela
+    - violencia en primaria
+    - violencia en secundaria
+    - violencia en preparatoria
+    - violencia en universidad
+
+- intent: espacio_pub
+  examples: |
+    - violencia en espacio público
+    - violencia en público
+    - violencia en presencia de gente
+
+- intent: digital_medios
+  examples: |
+    - violencia digital
+    - violencia internet
+    - violencia en redes sociales
+    - violencia en medios de información
+
+- intent: politica
+  examples: |
+    - violencia en política
+
+- intent: int_menu_principal
+  examples: |
+    - deseo regresar al menú
+    - regresar menú principal
+    - principal menú
+    - regresar menú original
+
+- intent: no_input
+  examples: |
+    - 0
+    - no sé
+    - xd
+    - lo que sea
+    - a ver tu elige
+    - como tu veas
+    - decide tu
+
+- intent: despedida
+  examples: |
+    - nos vemos
+    - hasta luego
+    - nos vemos más tarde
+    - buenas noches
+    - adiós
+    - hastaluego
+    - ten un buen dia
+    - nos estamos viendo
+    - bye bye
+    - nos vemos pronto
+
+- intent: afirmar
+  examples: |
+    - sí
+    - si
+    - s
+    - de hecho
+    - yes
+    - ciertamente
+    - eso suena bien
+    - correcto
+
+- intent: negar
+  examples: |
+    - no
+    - n
+    - nunca
+    - No lo creo
+    - no me gusta ello
+    - no way
+    - not really
+
+- intent: reto_bot
+  examples: |
+    - eres un bot?
+    - eres un humano?
+    - estoy hablando con un bot?
+    - hablo con un humano?
+    - eres un ser vivo?
