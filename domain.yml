@@ -240,7 +240,7 @@ responses:
 
 
   utter_finalizar_aprender_info:
-  - text: "Muchas gracias!\n Descarga tarjeta de contactos útiles.\n\n Contactos  utiles\n\n https://pnud.s3.us-east-2.amazonaws.com/Contactos.jpg  \n\n ¿La información te fué útil?\"
+  - text: "Muchas gracias!\n Descarga tarjeta de contactos útiles.\n\n Contactos  utiles\n\n https://pnud.s3.us-east-2.amazonaws.com/Contactos.jpg  \n\n ¿La información te fué útil?"
     buttons:
     - title: "SI"
       payload: "/finalizar_aprender_si"
