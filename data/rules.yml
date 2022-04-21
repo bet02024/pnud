@@ -1,11 +1,6 @@
-version: "2.0"
+version: "3.0"
 
 rules:
-
-- rule: goodbye
-  steps:
-  - intent: utter_despedida
-  - action: utter_decir_despedida
 
 - rule: challenge
   steps:
@@ -52,7 +47,7 @@ rules:
 
 - rule: rule_case_actuar_violencia
   steps:
-  - intent: case_actuar_violencia
+  - intent: actuar_violencia
   - action: utter_menu_actuar
 
 - rule: rule_aprender_pareja_finalizar
@@ -85,17 +80,25 @@ rules:
   - intent: aprender_espacio_pub_finalizar
   - action: utter_objetivo_aprender_espacio_pub_finalizar
 
-
-
-
-
-
-
-
 - rule: rule_finalizar_aprender_info
   steps:
   - intent: finalizar_aprender_info
   - action: utter_finalizar_aprender_info
+
+- rule: rule_finalizar_actuar
+  steps:
+  - intent: finalizar_actuar
+  - action: utter_finalizar_actuar
+
+- rule: rule_finalizar_actuar_si
+  steps:
+  - intent: finalizar_actuar_si
+  - action: utter_finalizar_actuar_si
+
+- rule: rule_finalizar_actuar_no
+  steps:
+  - intent: finalizar_actuar_no
+  - action: utter_finalizar_actuar_no
 
 - rule: rule_afinalizar_aprender_no
   steps:
@@ -108,34 +111,182 @@ rules:
   - action: utter_finalizar_aprender_si
 
 
+
+
+- rule: rule_aprender_digital_política
+  steps:
+  - intent: politica
+  - action: utter_objetivo_aprender_politica
+
+
+
+- rule: rule_actuar_pareja
+  steps:
+  - intent: actuar_pareja
+  - action: utter_actuar_pareja
+
+- rule: rule_actuar_domestico
+  steps:
+  - intent: actuar_domestico
+  - action: utter_actuar_domestico
+
+- rule: rule_actuar_laboral
+  steps:
+  - intent: actuar_laboral
+  - action: utter_actuar_laboral
+
+- rule: rule_actuar_escolar
+  steps:
+  - intent: actuar_escolar
+  - action: utter_actuar_escolar
+
+- rule: rule_actuar_espacio_pub
+  steps:
+  - intent: actuar_espacio_pub
+  - action: utter_actuar_espacio_pub
+
+- rule: rule_actuar_digital_medios
+  steps:
+  - intent: actuar_digital_medios
+  - action: utter_actuar_digital_medios
+
+- rule: rule_actuar_politica
+  steps:
+  - intent: actuar_politica
+  - action: utter_actuar_politica
+
+
+- rule: rule_actuar_pareja_si
+  steps:
+  - intent: actuar_pareja_si
+  - action: utter_actuar_pareja_si
+- rule: rule_actuar_pareja_no
+  steps:
+  - intent: actuar_pareja_no
+  - action: utter_actuar_pareja_no
+
+
+- rule: rule_actuar_domestico_si
+  steps:
+  - intent: actuar_domestico_si
+  - action: utter_actuar_domestico_si
+- rule: rule_actuar_domestico_no
+  steps:
+  - intent: actuar_domestico_no
+  - action: utter_actuar_domestico_no
+
+- rule: rule_actuar_laboral_si
+  steps:
+  - intent: actuar_laboral_si
+  - action: utter_actuar_laboral_si
+- rule: rule_actuar_laboral_no
+  steps:
+  - intent: actuar_laboral_no
+  - action: utter_actuar_laboral_no
+
+- rule: rule_actuar_escolar_si
+  steps:
+  - intent: actuar_escolar_si
+  - action: utter_actuar_escolar_si
+- rule: rule_actuar_escolar_no
+  steps:
+  - intent: actuar_escolar_no
+  - action: utter_actuar_escolar_no
+
+
+- rule: rule_actuar_espacio_pub_si
+  steps:
+  - intent: actuar_espacio_pub_si
+  - action: utter_actuar_espacio_pub_si
+- rule: rule_actuar_espacio_pub_no
+  steps:
+  - intent: actuar_espacio_pub_no
+  - action: utter_actuar_espacio_pub_no
+
+- rule: rule_actuar_digital_medios_si
+  steps:
+  - intent: actuar_digital_medios_si
+  - action: utter_actuar_digital_medios_si
+- rule: rule_actuar_digital_medios_no
+  steps:
+  - intent: actuar_digital_medios_no
+  - action: utter_actuar_digital_medios_no
+
+
+- rule: rule_actuar_politica_si
+  steps:
+  - intent: actuar_politica_si
+  - action: utter_actuar_politica_si
+- rule: rule_actuar_politica_no
+  steps:
+  - intent: actuar_politica_no
+  - action: utter_actuar_politica_no
+
 - rule: rule_agente_social_menu
   steps:
-  - intent: agente_social_menu
-  - action: utter_agente_social_menu
+  - intent: agente_social
+  - action: utter_agente_social
 
-
-- rule: rule_caso_violencia
+- rule: rule_agente_social_menu_si
   steps:
-  - intent: caso_violencia
-  - action: utter_saludo_principal
+  - intent: agente_social_si
+  - action: utter_agente_social_si
 
-- rule: rule_erradicar_violencia
+- rule: rule_agente_social_menu_no
   steps:
-  - intent: erradicar_violencia
-  - action: utter_saludo_principal
+  - intent: agente_social_no
+  - action: utter_agente_social_no
+
+- rule: rule_agente_social_contextos
+  steps:
+  - intent: agente_social_contextos
+  - action: utter_agente_social_contextos
+
+- rule: rule_agente_social_general
+  steps:
+  - intent: agente_social_general
+  - action: utter_agente_social_general
+
+
+
+
+- rule: rule_agente_social_pareja
+  steps:
+  - intent: agente_social_pareja
+  - action: utter_agente_social_pareja
+
+- rule: rule_agente_social_domestico
+  steps:
+  - intent: agente_social_domestico
+  - action: utter_agente_social_domestico
+
+- rule: rule_agente_social_laboral
+  steps:
+  - intent: agente_social_laboral
+  - action: utter_agente_social_laboral
+
+- rule: rule_agente_social_escolar
+  steps:
+  - intent: agente_social_escolar
+  - action: utter_agente_social_escolar
+
+- rule: rule_agente_social_espacio_pub
+  steps:
+  - intent: agente_social_espacio_pub
+  - action: utter_agente_social_espacio_pub
+
+- rule: rule_agente_social_medios
+  steps:
+  - intent: agente_social_medios
+  - action: utter_agente_social_medios
+
+- rule: rule_agente_social_politica
+  steps:
+  - intent: agente_social_politica
+  - action: utter_agente_social_politica
+
 
 - rule: rule_contactos
   steps:
   - intent: contactos
-  - action: utter_saludo_principal
-
-
-#- rule: new_input
-#  steps:
-#  - intent: no_input
-#  - action: pedir_input
-
-#- rule: fallback
-#    steps:
-#      - intent: nlu_fallback
-#      - action: utter_default
+  - action: utter_contactos

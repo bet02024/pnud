@@ -1,4 +1,4 @@
-version: "2.0"
+version: "3.0"
 
 nlu:
 - intent: saludo
@@ -16,9 +16,9 @@ nlu:
     - buenasnoches
     - buenas tardes
 
-- intent: case_actuar_violencia
+- intent: actuar_violencia
   examples: |
-    - case_actuar_violencia
+    - actuar_violencia
 
 - intent: aprender_pareja_finalizar
   examples: |
@@ -44,10 +44,6 @@ nlu:
   examples: |
     - aprender_espacio_pub_finalizar
 
-- intent: agente_social_menu
-  examples: |
-    - agente_social_menu
-
 - intent: finalizar_aprender_info
   examples: |
     - finalizar_aprender_info
@@ -60,6 +56,56 @@ nlu:
   examples: |
     - finalizar_aprender_no
 
+- intent: agente_social
+  examples: |
+    - agente_social
+
+- intent: agente_social_si
+  examples: |
+    - agente_social_si
+
+- intent: agente_social_no
+  examples: |
+    - agente_social_no
+
+- intent: agente_social_contextos
+  examples: |
+    - agente_social_contextos
+
+- intent: agente_social_pareja
+  examples: |
+    - agente_social_pareja
+
+- intent: agente_social_domestico
+  examples: |
+    - agente_social_domestico
+
+- intent: agente_social_laboral
+  examples: |
+    - agente_social_laboral
+
+- intent: agente_social_escolar
+  examples: |
+    - agente_social_escolar
+
+- intent: agente_social_espacio_pub
+  examples: |
+    - agente_social_espacio_pub
+
+- intent: agente_social_medios
+  examples: |
+    - agente_social_medios
+
+- intent: agente_social_politica
+  examples: |
+    - agente_social_politica
+
+- intent: agente_social_general
+  examples: |
+    - agente_social_general
+
+
+
 
 - intent: aprender
   examples: |
@@ -68,16 +114,6 @@ nlu:
     - entender violencia
     - profundizar en definición de violencia
 
-- intent: caso_violencia
-  examples: |
-    - soy testigo de violencia
-    - he presenciado agresividad
-    - he visto caso de violencia
-
-- intent: erradicar_violencia
-  examples: |
-    - qué puedo hacer para erradicar la violencia?
-    - métodos para eliminar
 - intent: contactos
   examples: |
     - Deseo saber contactos útiles
@@ -134,6 +170,91 @@ nlu:
     - regresar menú principal
     - principal menú
     - regresar menú original
+
+- intent: actuar_pareja
+  examples: |
+    - actuar_pareja
+- intent: actuar_domestico
+  examples: |
+    - actuar_domestico
+- intent: actuar_laboral
+  examples: |
+    - actuar_laboral
+- intent: actuar_escolar
+  examples: |
+    - actuar_escolar
+- intent: actuar_espacio_pub
+  examples: |
+    - actuar_espacio_pub
+- intent: actuar_digital_medios
+  examples: |
+    - actuar_digital_medios
+- intent: actuar_politica
+  examples: |
+    - actuar_politica
+
+- intent: actuar_pareja_si
+  examples: |
+    - actuar_pareja_si
+- intent: actuar_pareja_no
+  examples: |
+    - actuar_pareja_no
+
+- intent: actuar_domestico_si
+  examples: |
+    - actuar_domestico_si
+- intent: actuar_domestico_no
+  examples: |
+    - actuar_domestico_no
+
+- intent: actuar_laboral_si
+  examples: |
+    - actuar_laboral_si
+- intent: actuar_laboral_no
+  examples: |
+    - actuar_laboral_no
+
+- intent: actuar_escolar_si
+  examples: |
+    - actuar_escolar_si
+- intent: actuar_escolar_no
+  examples: |
+    - actuar_escolar_no
+
+- intent: actuar_espacio_pub_si
+  examples: |
+    - actuar_espacio_pub_si
+- intent: actuar_espacio_pub_no
+  examples: |
+    - actuar_espacio_pub_no
+
+- intent: actuar_digital_medios_si
+  examples: |
+    - actuar_digital_medios_si
+- intent: actuar_digital_medios_no
+  examples: |
+    - actuar_digital_medios_no
+
+- intent: actuar_politica_si
+  examples: |
+    - actuar_politica_si
+- intent: actuar_politica_no
+  examples: |
+    - actuar_politica_no
+
+- intent: finalizar_actuar
+  examples: |
+    - finalizar_actuar
+
+- intent: finalizar_actuar_si
+  examples: |
+    - finalizar_actuar_si
+- intent: finalizar_actuar_no
+  examples: |
+    - finalizar_actuar_no
+
+
+
 
 - intent: no_input
   examples: |
