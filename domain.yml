@@ -1,4 +1,4 @@
-version: "2.0"
+version: "3.0"
 
 intents:
   - saludo
@@ -153,8 +153,7 @@ responses:
       payload: "/aprender_politica_finalizar"
 
   utter_objetivo_aprender_pareja_finalizar:
-  - text: "Consejos Generales:\n\n"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Pareja.jpg"
+  - text: "Consejos Generales:\n\n https://pnud.s3.us-east-2.amazonaws.com/Pareja.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
@@ -165,9 +164,9 @@ responses:
     - title: "Terminar por hoy"
       payload: "/finalizar_aprender_info"
 
+
   utter_objetivo_aprender_domestico_finalizar:
-  - text: "Consejos Generales:\n\n"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Casa.jpg"
+  - text: "Consejos Generales:\n\n https://pnud.s3.us-east-2.amazonaws.com/Casa.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
@@ -179,8 +178,7 @@ responses:
       payload: "/finalizar_aprender_info"
 
   utter_objetivo_aprender_laboral_finalizar:
-  - text: "Consejos Generales:\n\n"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Trabajo.jpg"
+  - text: "Consejos Generales:\n\n https://pnud.s3.us-east-2.amazonaws.com/Trabajo.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
@@ -192,8 +190,7 @@ responses:
       payload: "/finalizar_aprender_info"
 
   utter_objetivo_aprender_escolar_finalizar:
-  - text: "Consejos Generales:\n\n"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Escuela.jpg"
+  - text: "Consejos Generales:\n\n https://pnud.s3.us-east-2.amazonaws.com/Escuela.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
@@ -205,8 +202,7 @@ responses:
       payload: "/finalizar_aprender_info"
 
   utter_objetivo_aprender_politica_finalizar:
-  - text: "Consejos Generales:\n\n"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Instituciones.jpg"
+  - text: "Consejos Generales:\n\n https://pnud.s3.us-east-2.amazonaws.com/Instituciones.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
@@ -218,8 +214,7 @@ responses:
       payload: "/finalizar_aprender_info"
 
   utter_objetivo_aprender_espacio_pub_finalizar:
-  - text: "Consejos Generales:\n\n"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Publico.jpg"
+  - text: "Consejos Generales:\n\n https://pnud.s3.us-east-2.amazonaws.com/Publico.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
@@ -232,8 +227,7 @@ responses:
 
 
   utter_objetivo_aprender_digital_medios:
-  - text: "¿Cómo ocurre generalmente la VG en ambiente de medios de comunicación?\n. .....\n\nA qué debemos prestar atención:\n ....¿Identificas un caso de violencia con esta información?"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Medios.jpg"
+  - text: "¿Cómo ocurre generalmente la VG en ambiente de medios de comunicación?\n. .....\n\nA qué debemos prestar atención:\n ....¿Identificas un caso de violencia con esta información?\n\n https://pnud.s3.us-east-2.amazonaws.com/Medios.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
@@ -246,8 +240,7 @@ responses:
 
 
   utter_finalizar_aprender_info:
-  - text: "Muchas gracias!\n Descarga tarjeta de contactos útiles.\n\n Contactos  utiles\n\n¿La información te fué útil?"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Contactos.jpg"
+  - text: "Muchas gracias!\n Descarga tarjeta de contactos útiles.\n\n Contactos  utiles\n\n https://pnud.s3.us-east-2.amazonaws.com/Contactos.jpg  \n\n ¿La información te fué útil?\"
     buttons:
     - title: "SI"
       payload: "/finalizar_aprender_si"
@@ -255,8 +248,7 @@ responses:
       payload: "/finalizar_aprender_no"
 
   utter_finalizar_actuar:
-  - text: "¿La información te fué útil?"
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Actua.jpg"
+  - text: "https://pnud.s3.us-east-2.amazonaws.com/Actua.jpg \n\n ¿La información te fué útil?"
     buttons:
     - title: "SI"
       payload: "/finalizar_actuar_si"
@@ -292,8 +284,9 @@ responses:
 
       Eres importante para incidir en las/os demás.
 
+      https://pnud.s3.us-east-2.amazonaws.com/Comunidad.jpg
+
       ¿Crees que con lo que sabes sobre la violencia de género puedes ayudar a tu comunidad?
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Comunidad.jpg"
     buttons:
     - title: "Sí"
       payload: "/agente_social_si"
@@ -504,6 +497,8 @@ responses:
   - text: |
       Esta información es para todas y todos.
 
+      https://pnud.s3.us-east-2.amazonaws.com/Contactos.jpg
+
       Guárdala y compártela para que más personas sepan cómo identificar y erradicar situaciones de violencia.
 
       ¡Es muy útil tener a la mano algunos contactos de ayuda!
@@ -511,7 +506,6 @@ responses:
       Debes saber que hay muchas formas de recibir apoyo en situaciones de violencia.
 
       ¿Donde te interesaría continuar?
-  - image: "https://pnud.s3.us-east-2.amazonaws.com/Contactos.jpg"
     buttons:
     - title: "Ver otro contexto donde ocurre violencia de genero"
       payload: "/aprender"
