@@ -33,10 +33,6 @@ rules:
   - intent: espacio_pub
   - action: utter_objetivo_aprender_escolar
 
-- rule: rule_aprender_digital_medios
-  steps:
-  - intent: digital_medios
-  - action: utter_objetivo_aprender_digital_medios
 
 - rule: rule_aprender_digital_política
   steps:
@@ -50,45 +46,10 @@ rules:
   - intent: actuar_violencia
   - action: utter_menu_actuar
 
-- rule: rule_aprender_pareja_finalizar
-  steps:
-  - intent: aprender_pareja_finalizar
-  - action: utter_objetivo_aprender_pareja_finalizar
 
-- rule: rule_aprender_domestico_finalizar
-  steps:
-  - intent: aprender_domestico_finalizar
-  - action: utter_objetivo_aprender_domestico_finalizar
 
-- rule: rule_aprender_laboral_finalizar
-  steps:
-  - intent: aprender_laboral_finalizar
-  - action: utter_objetivo_aprender_laboral_finalizar
 
-- rule: rule_aprender_escolar_finalizar
-  steps:
-  - intent: aprender_escolar_finalizar
-  - action: utter_objetivo_aprender_escolar_finalizar
 
-- rule: rule_aprender_politica_finalizar
-  steps:
-  - intent: aprender_politica_finalizar
-  - action: utter_objetivo_aprender_politica_finalizar
-
-- rule: rule_aprender_espacio_pub_finalizar
-  steps:
-  - intent: aprender_espacio_pub_finalizar
-  - action: utter_objetivo_aprender_espacio_pub_finalizar
-
-- rule: rule_finalizar_aprender_info
-  steps:
-  - intent: finalizar_aprender_info
-  - action: utter_finalizar_aprender_info
-
-- rule: rule_finalizar_actuar
-  steps:
-  - intent: finalizar_actuar
-  - action: utter_finalizar_actuar
 
 - rule: rule_finalizar_actuar_si
   steps:
@@ -109,9 +70,6 @@ rules:
   steps:
   - intent: finalizar_aprender_si
   - action: utter_finalizar_aprender_si
-
-
-
 
 - rule: rule_aprender_digital_política
   steps:
@@ -222,11 +180,6 @@ rules:
   - intent: actuar_politica_no
   - action: utter_actuar_politica_no
 
-- rule: rule_agente_social_menu
-  steps:
-  - intent: agente_social
-  - action: utter_agente_social
-
 - rule: rule_agente_social_menu_si
   steps:
   - intent: agente_social_si
@@ -284,9 +237,3 @@ rules:
   steps:
   - intent: agente_social_politica
   - action: utter_agente_social_politica
-
-
-- rule: rule_contactos
-  steps:
-  - intent: contactos
-  - action: utter_contactos

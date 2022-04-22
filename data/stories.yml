@@ -11,10 +11,69 @@ stories:
   - action: utter_pedir_input
   - action: utter_menu_principal
 
-#- story: aprender_story
-#  steps:
-#  - intent: saludo
-#  - action: saludo_principal
-#  - action: menu_principal
-#  - intent: aprender
-#  - action: menu_aprender
+- story: story_aprender_pareja
+  steps:
+  - intent: aprender_pareja_finalizar
+  - action: utter_objetivo_aprender_pareja_finalizar_image
+  - action: utter_objetivo_aprender_pareja_finalizar
+
+- story: story_aprender_domestico_finalizar
+  steps:
+  - intent: aprender_domestico_finalizar
+  - action: utter_objetivo_aprender_domestico_finalizar_image
+  - action: utter_objetivo_aprender_domestico_finalizar
+
+- story: story_aprender_laboral_finalizar
+  steps:
+  - intent: aprender_laboral_finalizar
+  - action: utter_objetivo_aprender_laboral_finalizar_image
+  - action: utter_objetivo_aprender_laboral_finalizar
+
+- story: story_aprender_escolar_finalizar
+  steps:
+  - intent: aprender_escolar_finalizar
+  - action: utter_objetivo_aprender_escolar_finalizar_image
+  - action: utter_objetivo_aprender_escolar_finalizar
+
+- story: story_aprender_politica_finalizar
+  steps:
+  - intent: aprender_politica_finalizar
+  - action: utter_objetivo_aprender_politica_finalizar_image
+  - action: utter_objetivo_aprender_politica_finalizar
+
+- story: story_aprender_espacio_pub_finalizar
+  steps:
+  - intent: aprender_espacio_pub_finalizar
+  - action: utter_objetivo_aprender_espacio_pub_finalizar_image
+  - action: utter_objetivo_aprender_espacio_pub_finalizar
+
+
+- story: story_digital_medios
+  steps:
+  - intent: digital_medios
+  - action: utter_objetivo_aprender_digital_medios_image
+  - action: utter_objetivo_aprender_digital_medios
+
+- story: story_finalizar_aprender_info
+  steps:
+  - intent: finalizar_aprender_info
+  - action: utter_finalizar_aprender_info_image
+  - action: utter_finalizar_aprender_info
+
+- story: story_finalizar_actuar
+  steps:
+  - intent: finalizar_actuar
+  - action: utter_finalizar_actuar_image
+  - action: utter_finalizar_actuar
+
+- story: story_agente_social
+  steps:
+  - intent: agente_social
+  - action: utter_agente_social_image
+  - action: utter_agente_social
+
+- story: story_contactosl
+  steps:
+  - intent: contactos
+  - action: utter_contactos_image
+  - action: utter_contactos
