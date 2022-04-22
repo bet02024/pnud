@@ -50,7 +50,7 @@ Dependiendo de tu sistema operativo, instalar los siguientes componentes:
  **- Detener el servidor Rasa**
 
  **- Modificar el siguiente archivo con las nuevas imágenes** 
-   [data/stories.yml](https://github.com/josebetomex/pnud/blob/main/data/stories.yml
+   [domain.yml](https://github.com/josebetomex/pnud/blob/main/domain.yml
    "stories.yml")
 
 	
