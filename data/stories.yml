@@ -6,6 +6,7 @@ stories:
   steps:
   - intent: saludo
   - action: utter_saludo_principal
+  - action: utter_luna_normal_image
   - action: utter_menu_principal
   - intent: no_input
   - action: utter_pedir_input
@@ -70,10 +71,45 @@ stories:
   steps:
   - intent: agente_social
   - action: utter_agente_social_image
+  - action: utter_luna_normal_image
   - action: utter_agente_social
 
-- story: story_contactosl
+- story: story_contactos
   steps:
   - intent: contactos
   - action: utter_contactos_image
+  - action: utter_contactos_intro
+  - action: utter_luna_normal_image
   - action: utter_contactos
+
+- story: story_finalizar_aprender_si
+  steps:
+  - intent: finalizar_aprender_si
+  - action: utter_luna_festejo_image
+  - action: utter_finalizar_aprender_si
+
+- story: story_finalizar_actuar_si
+  steps:
+  - intent: finalizar_actuar_si
+  - action: utter_luna_festejo_image
+  - action: utter_finalizar_actuar_si
+
+- story: story_finalizar_actuar_no
+  steps:
+  - intent: finalizar_actuar_no
+  - action: utter_luna_triste_image
+  - action: utter_finalizar_actuar_no
+
+- story: story_afinalizar_aprender_no
+  steps:
+  - intent: finalizar_aprender_no
+  - action: utter_luna_triste_image
+  - action: utter_finalizar_aprender_no
+
+
+- story: story_case_actuar_violencia
+  steps:
+  - intent: actuar_violencia
+  - action: utter_menu_actuar_inicio
+  - action: utter_luna_alegre_image
+  - action: utter_menu_actuar

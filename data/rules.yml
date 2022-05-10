@@ -41,41 +41,12 @@ rules:
 
 
 
-- rule: rule_case_actuar_violencia
-  steps:
-  - intent: actuar_violencia
-  - action: utter_menu_actuar
 
-
-
-
-
-
-- rule: rule_finalizar_actuar_si
-  steps:
-  - intent: finalizar_actuar_si
-  - action: utter_finalizar_actuar_si
-
-- rule: rule_finalizar_actuar_no
-  steps:
-  - intent: finalizar_actuar_no
-  - action: utter_finalizar_actuar_no
-
-- rule: rule_afinalizar_aprender_no
-  steps:
-  - intent: finalizar_aprender_no
-  - action: utter_finalizar_aprender_no
-
-- rule: rule_finalizar_aprender_si
-  steps:
-  - intent: finalizar_aprender_si
-  - action: utter_finalizar_aprender_si
 
 - rule: rule_aprender_digital_política
   steps:
   - intent: politica
   - action: utter_objetivo_aprender_politica
-
 
 
 - rule: rule_actuar_pareja
@@ -118,6 +89,7 @@ rules:
   steps:
   - intent: actuar_pareja_si
   - action: utter_actuar_pareja_si
+
 - rule: rule_actuar_pareja_no
   steps:
   - intent: actuar_pareja_no
