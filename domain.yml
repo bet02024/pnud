@@ -65,6 +65,18 @@ intents:
   - agente_social_contextos
 
 responses:
+  utter_luna_normal_image:
+  - image: "https://pnud.s3.us-east-2.amazonaws.com/LunaNormal.png"
+    text: ""
+  utter_luna_triste_image:
+  - image: "https://pnud.s3.us-east-2.amazonaws.com/LunaTriste.png"
+    text: ""
+  utter_luna_alegre_image:
+  - image: "https://pnud.s3.us-east-2.amazonaws.com/LunaContenta.png"
+    text: ""
+  utter_luna_festejo_image:
+  - image: "https://pnud.s3.us-east-2.amazonaws.com/LunaFestejo.png"
+    text: ""
   utter_saludo_principal:
   - text: "¡Hola! Soy Luna, una amiga de la Secretaría de las Mujeres."
   utter_objetivo_principal:
@@ -534,12 +546,14 @@ responses:
   - image: "https://pnud.s3.us-east-2.amazonaws.com/Contactos.jpg"
     text: ""
 
-  utter_contactos:
+  utter_contactos_intro:
   - text: |
       Esta información es para todas y todos.
 
       Guárdala y compártela para que más personas sepan cómo identificar y erradicar situaciones de violencia.
 
+  utter_contactos:
+  - text: |
       ¡Es muy útil tener a la mano algunos contactos de ayuda!
 
       Debes saber que hay muchas formas de recibir apoyo en situaciones de violencia.
@@ -554,10 +568,13 @@ responses:
       payload: "/finalizar_aprender_info"
 
 
-  utter_menu_actuar:
+  utter_menu_actuar_inicio:
   - text: |
       Gracias por querer acompañar a otras mujeres que viven situaciones de violencia.
       Juntas podemos vivir libres y seguras.
+
+  utter_menu_actuar:
+  - text: |
       ¿En cuál de los siguientes contextos están ocurriendo las agresiones?
     buttons:
     - title: "En una relación de pareja"
